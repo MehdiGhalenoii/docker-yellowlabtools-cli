@@ -1,12 +1,12 @@
-# Yellow Lab Tools CLI Docker Image
+# Yellow Lab Tools CLI Docker file
 
 ## Running
 
 run commands below:
 
 ```
-git clone git remote add origin https://github.com/MehdiGhalenoii/docker-yellowlabtools-cli.git ylt
+git clone https://github.com/MehdiGhalenoii/docker-yellowlabtools-cli.git ylt
 cd ylt
-docker built -t "yellowlabCLI" .
-docker contianer run --rm yellowlabCLI example.com
+docker build -t "yellowlabCLI" .
+docker container run --rm yellowlabCLI example.com
 ```
